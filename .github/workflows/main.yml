@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      IMAGE: ghcr.io/rosti-cz/workshop-custom-app
+      IMAGE: ghcr.io/by-cx/workshop1-custom-app-a
       TAG: dev
     steps:
       - uses: actions/checkout@v4
